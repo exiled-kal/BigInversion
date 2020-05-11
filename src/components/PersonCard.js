@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const PersonCard = props => {
     const [state, setState] = useState({
-        // ages: props.age
+        ages: props.age
     })
     
     // const clickHandler = e => {
